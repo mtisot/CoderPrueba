@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Consultas al laboratorio de analisis clinicos del Centro del Diagnostico">
+    	<meta name="keywords" content="LABORATORIO, ANALISIS, BACTERIOLOGIA, BARILOCHE, BIOQUIMICO, UROCULTIVO, GLUCOSA, MUTUAL, CONSULTA">
+		<title>Consulta - Laboratorio CDD</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../mi-css/styles.css"/>
+	</head>
+	<body>
+		<header class= "extremo">	
+	  	   	<div class="topnav">
+	  	   		<nav>
+	  	    		<a href="../Index.html" class="logo">
+	           			<img alt="CDD" src="../imagenes/cdd.png">
+	        		</a>
+		  		   	<ul>
+	    	 			<li><a href="../Index.html">Inicio</a></li>
+	    	 			<li><a href="indicaciones.html">Indicaciones</a></li>
+	    	 			<li><a href="contacto.html">Contacto</a></li>
+	    	 			<li><a href="#">Consultas</a></li>
+	    	 			<li><a href="nosotros.html">Acerca de Nosotras</a></li>    	 		
+	    	 		</ul>
+	    	 	</nav>
+	        </div>	      	
+		</header>
+		<main class="container">
+			<h1 class="titulo">Consultas Laboratorio</h1>
+			<hr>
+			<form action="#" method="GET" class="formulario ml-4">
+				<div class="form-group">
+					<label for="name">Nombres</label>
+					<input id="name" class="form-control" name="nombres" required type="text">
+				</div>			
+				<div class="form-group">
+					<label for="apellido">Apellido</label>
+					<input id="apellido" class="form-control" name="Apellidos" required type="text">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input id="email" class="form-control" name="emails" placeholder="email@ejemplo.com" type="email" required>
+				</div>
+				<div class="form-group">
+					<label for="genero">Género</label>
+					<select name="genero" class="form-control" id="genero">
+						<option>Femenino</option>
+						<option>Masculino</option>
+						<option>Otro</option>
+					</select>
+				</div>
+				<div class="consulta-box form-group">
+					<label for="consulta">Consulta</label>
+					<textarea id="txtconsulta" class="form-control" name="consultas" placeholder="Escriba su consulta" required></textarea>
+				</div>
+				<p>Solo usaremos su información para responder a su consulta</p>
+				<div>
+					<input type="checkbox" value="si" name="chkAcepta" id="chkAcepta" required>
+					<label for="chkAcepta">Acepta el envío de los datos ingresados</label>
+				</div>
+				<button type="reset" class="btn btn-secondary mb-3">Limpiar Formulario</button>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>		
+    		<hr>
+    	</main>
+		<footer>
+			<div class="extremo">
+      			<nav>
+      				<a href="../Index.html" class="logo">
+    	 	       		<img alt="CDD" src="../imagenes/cdd.png">
+    	 	    	</a>				
+	    	 		<ul>
+	    	 			<li><a href="../Index.html">Inicio</a></li>
+	    	 			<li><a href="indicaciones.html">Indicaciones</a></li>
+	    	 			<li><a href="contacto.html">Contacto</a></li>
+	    	 			<li><a href="#">Consultas</a></li>
+	    	 			<li><a href="nosotros.html">Acerca de Nosotras</a></li>    	 			
+	    	 		</ul>
+	    	 	</nav>
+	    	</div>
+	    	<div class="align-items-center row justify-content-around" id="img-footer">
+	            <div class="row">
+	                <img alt="CDD" src="../imagenes/phone.png"> <p class="suave">(294) 466-4416</p>
+	            </div>
+	            <div class="row">
+	                <img alt="CDD" src="../imagenes/whatsapp.png"> <p class="suave">(294) 154-113344</p> 
+	            </div>
+	            <div class="row">
+	                <img alt="CDD" src="../imagenes/facebook.png"> <p class="suave"> Laboratorio Centro del Diagnóstico</p> 
+	            </div>
+	        </div>   
+    	</footer>
+    	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

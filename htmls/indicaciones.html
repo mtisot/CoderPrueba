@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Indicaciones de ordenes del laboratorio de analisis clinicos del Centro del Diagnostico">
+    	<meta name="keywords" content="LABORATORIO, ANALISIS, BACTERIOLOGIA, BARILOCHE, BIOQUIMICO, UROCULTIVO, GLUCOSA, MUTUAL, ORDEN, INDICACIONES">
+		<title>Indicaciones - Laboratorio CDD</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../mi-css/styles.css"/>
+	</head>
+	<body>
+		<header class="extremo">
+			<div>
+				<nav>
+					<a href="../Index.html" class="logo">
+						<img alt="CDD" src="../imagenes/cdd.png">
+					</a>				
+					<ul>
+						<li><a href="../Index.html">Inicio</a></li>
+						<li><a href="#">Indicaciones</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+						<li><a href="consulta.html">Consultas</a></li>
+						<li><a href="nosotros.html">Acerca de Nosotras</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="container">
+			<h1 class="titulo">Indicaciones</h1>
+			<hr>
+			<form action="#" method="GET">
+				<div class="d-flex flex-column">				
+						<p>Seleccione de a uno los items de su orden
+							y presione Agregar:
+						</p>
+					<div class="d-flex justify-content-between align-items-center">
+						<div>
+							<select name="cmbItems" id="cmbItems" class="combo-box form-control d-inline-block">
+								<option selected disabled></option>
+								<option>T4</option>
+								<option>TSH</option>
+								<option>Glucosa</option>
+							</select>
+							<button id="btnAgregar" class="boton btn btn-secondary" type="button">Agregar</button>
+						</div>
+						<textarea id="txtSeleccion" class="textarea form-control" readonly>Selección</textarea>
+					</div>
+					<div class="align-self-center"> 
+						<button type="submit" class="boton btn btn-secondary mb-3">Enviar</button>
+						<textarea id="txt-recomendaciones" class="textarea form-control mt-4" readonly>Recomendaciones</textarea> <!-- Aqui apareceran las recomendaciones segun los items -->
+					</div>
+				</div>
+			</form>
+			<div class="d-flex row justify-content-around align-items-center">
+				<p>
+					Si la orden no es legible o tenes alguna consulta podes dejarnos un mensaje por mail o mandarnos la foto de la orden por Whastapp y nos contactamos con vos!
+				</p>			
+			</div>
+			<a href="consulta.html" class="link-grande row justify-content-around align-items-center">CONSULTANOS</a>	
+	    	<hr>
+	    </main>
+		<footer>
+			<div class="extremo">
+      			<nav>
+      				<a href="../Index.html" class="logo">
+      					<img alt="CDD" src="../imagenes/cdd.png">
+      				</a>      			
+	      			<ul>
+	      				<li><a href="../Index.html">Inicio</a></li>
+	      				<li><a href="#">Indicaciones</a></li>
+	      				<li><a href="contacto.html">Contacto</a></li>
+	      				<li><a href="consulta.html">Consultas</a></li>
+	      				<li><a href="nosotros.html">Acerca de Nosotras</a></li>
+	      			</ul>
+	      		</nav>
+      		</div>
+      		<div class="align-items-center row justify-content-around" id="img-footer">
+	            <div class="row">
+	                <img alt="CDD" src="../imagenes/phone.png"> <p class="suave">(294) 466-4416</p>
+	            </div>
+	            <div class="row">
+	                <img alt="CDD" src="../imagenes/whatsapp.png"> <p class="suave">(294) 154-113344</p> 
+	            </div>
+	            <div class="row">
+	                <img alt="CDD" src="../imagenes/facebook.png"> <p class="suave"> Laboratorio Centro del Diagnóstico</p> 
+	            </div>
+        	</div>   
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>

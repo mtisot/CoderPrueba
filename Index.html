@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laboratorio de analisis clinicos del Centro del Diagnostico">
+    <meta name="keywords" content="LABORATORIO, ANALISIS, BACTERIOLOGIA, BARILOCHE, BIOQUIMICO, UROCULTIVO, GLUCOSA, MUTUAL">
+  	<title>Inicio - Laboratorio CDD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="mi-css/styles.css"/>
+  </head>
+  <body>  	
+    <header>
+        <div class="extremo">
+            <nav>
+                <a href="#" class="logo">
+                   <img alt="CDD" src="imagenes/cdd.png">
+                </a>            
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="htmls/indicaciones.html">Indicaciones</a></li>
+                    <li><a href="htmls/contacto.html">Contacto</a></li>
+                    <li><a href="htmls/consulta.html">Consultas</a></li>
+                    <li><a href="htmls/nosotros.html">Acerca de Nosotras</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1 class="titulo">Laboratorio Centro Del <span class="gris">Diagnóstico</span></h1>
+        <h3 id="sub-principal" class="subtitulo">
+            Análisis Clínicos Bacteriológicos <br>Alta Complejidad
+        </h3>
+        <div id="principal" class="d-flex justify-content-around mt-5 mb-5">            
+            <div class="d-flex flex-column mr-2">
+                <div id="indica" class= "cuadro">
+                  <h5>
+                    INDICACIONES DE ANÁLISIS        
+                  </h5>
+                  <p class="row justify-content-around align-items-center">
+                    Ingresá tu orden y recibí los <br>pasos a seguir antes de tu próxima visita!
+                    <a  class="ml-3" href="htmls/indicaciones.html">
+                        <img alt="arrow" id="arrow" src="imagenes/pp-arrow.png">
+                    </a>      
+                  </p>
+                </div>
+                <div id="horarios" class= "cuadro">
+                    <a href="htmls/contacto.html" class="row justify-content-around align-items-center">
+                    <h5>
+                        HORARIOS Y UBICACIÓN
+                    </h5>
+                    <img alt="Clock" class="img-horarios" src="imagenes/clock.png">
+                    <img alt="Location" class="img-horarios" src="imagenes/location.png">
+                    </a>
+                </div>
+            </div>
+            <div class="align-self-center d-flex flex-column align-items-center col-4">
+                <div class="">
+                    <!-- Button trigger modal -->
+                    <button type="button" id="btn-covid" class="btn btn-danger pr-3 pl-3" data-toggle="modal" data-target="#modalCOVID">
+                        Recomendaciones COVID-19
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCOVID" tabindex="-1" role="dialog" aria-labelledby="modalCOVIDTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitle">CORONAVIRUS</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="negro">
+                                        Estimadxs pacientes, <br> <br>
+                                        En caso de presentar algunos de estos síntomas:
+                                        <ul>
+                                            <li>FIEBRE</li>
+                                            <li>TOS</li>
+                                            <li>DOLOR DE GARGANTA</li>
+                                        </ul>
+                                        <b>LLAMAR AL 911 O AL 107</b> <br> <br>
+                                        <span class="rojo">En caso de concurrir al Centro del Diagnóstico, le pedimos que lo haga con barbijo y se lo coloque mientras permanezca en el Centro del Diagnostico. Esto es de carácter obligatorio.</span>
+                                        <br><br>
+                                        Cuidemonos entre todxs.<br>
+                                        Gracias,<br>
+                                        <span class="font-italic font-weight-bold">Centro del Diagnóstico</span>
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <aside id= "aside" class= "cuadro">        
+                    <h6>También te puede interesar<br> la página del<br> Centro del Diagnóstico Bariloche!</h6>
+                    <nav>
+                        <a href="http://www.cddbariloche.com.ar" class="cdd-brc">
+                            <img alt="link-cdd" id="img-link-cdd" class="rounded" src="imagenes/AsideLink.jpg">
+                        </a>
+                    </nav>
+                  </aside>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <div class="extremo">
+            <nav>
+                <a href="#" class="logo">
+                    <img alt="CDD" src="imagenes/cdd.png">
+                </a>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="htmls/indicaciones.html">Indicaciones</a></li>
+                    <li><a href="htmls/contacto.html">Contacto</a></li>
+                    <li><a href="htmls/consulta.html">Consultas</a></li>
+                    <li><a href="htmls/nosotros.html">Acerca de Nosotras</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="align-items-center row justify-content-around" id="img-footer">
+            <div class="row">
+                <img alt="CDD" src="imagenes/phone.png"> <p class="suave">(294) 466-4416</p>
+            </div>
+            <div class="row">
+                <img alt="CDD" src="imagenes/whatsapp.png"> <p class="suave">(294) 154-113344</p> 
+            </div>
+            <div class="row">
+                <img alt="CDD" src="imagenes/facebook.png"> <p class="suave"> Laboratorio Centro del Diagnóstico</p> 
+            </div>
+        </div>      
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
