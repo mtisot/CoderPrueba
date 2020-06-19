@@ -11,19 +11,24 @@
     <link rel="stylesheet" href="mi-css/styles.css"/>
   </head>
   <body>  	
-    <header>
+    <header>          
         <div class="extremo">
-            <nav>
+            <nav class="d-flex justify-content-around">
                 <a href="#" class="logo">
                    <img alt="CDD" src="imagenes/cdd.png">
-                </a>            
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="htmls/indicaciones.html">Indicaciones</a></li>
-                    <li><a href="htmls/contacto.html">Contacto</a></li>
-                    <li><a href="htmls/consulta.html">Consultas</a></li>
-                    <li><a href="htmls/nosotros.html">Acerca de Nosotras</a></li>
-                </ul>
+                </a> 
+                <div class="btn-group dropleft d-flex align-items-center justify-content-center"> 
+                    <button class="btn btn-outline-dark btn-sm dropdown-toggle p-1" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img alt="menu" id="img-menu" src="imagenes/menu-desp.png">
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <a href="#" class="dropdown-item">Inicio</a>
+                        <a href="htmls/indicaciones.html" class="dropdown-item">Indicaciones</a>
+                        <a href="htmls/contacto.html"class="dropdown-item">Contacto</a>
+                        <a href="htmls/consulta.html" class="dropdown-item">Consultas</a>
+                        <a href="htmls/nosotros.html" class="dropdown-item">Acerca de Nosotras</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -46,7 +51,7 @@
                   </p>
                 </div>
                 <div id="horarios" class= "cuadro">
-                    <a href="htmls/contacto.html" class="row justify-content-around align-items-center">
+                    <a href="htmls/contacto.html" class="row justify-content-around align-items-center negro">
                     <h5>
                         HORARIOS Y UBICACIÓN
                     </h5>
@@ -112,10 +117,7 @@
     <footer>
         <div class="extremo">
             <nav>
-                <a href="#" class="logo">
-                    <img alt="CDD" src="imagenes/cdd.png">
-                </a>
-                <ul>
+                <ul class="d-flex flex-row align-items-center justify-content-center">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="htmls/indicaciones.html">Indicaciones</a></li>
                     <li><a href="htmls/contacto.html">Contacto</a></li>
@@ -124,15 +126,15 @@
                 </ul>
             </nav>
         </div>
-        <div class="align-items-center row justify-content-around" id="img-footer">
+        <div class="info-footer align-items-center row justify-content-around" id="img-footer">
             <div class="row">
-                <img alt="CDD" src="imagenes/phone.png"> <p class="suave">(294) 466-4416</p>
+                <img alt="CDD" src="imagenes/phone.png"><p class="suave">(294) 466-4416</p>
             </div>
             <div class="row">
-                <img alt="CDD" src="imagenes/whatsapp.png"> <p class="suave">(294) 154-113344</p> 
+                <img alt="CDD" src="imagenes/whatsapp.png"><p class="suave">(294) 154-113344</p> 
             </div>
             <div class="row">
-                <img alt="CDD" src="imagenes/facebook.png"> <p class="suave"> Laboratorio Centro del Diagnóstico</p> 
+                <img alt="CDD" src="imagenes/facebook.png"><p class="suave"> Laboratorio Centro del Diagnóstico</p> 
             </div>
         </div>      
     </footer>

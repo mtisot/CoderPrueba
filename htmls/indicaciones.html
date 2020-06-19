@@ -13,17 +13,22 @@
 	<body>
 		<header class="extremo">
 			<div>
-				<nav>
+				<nav class="d-flex justify-content-around">
 					<a href="../index.html" class="logo">
-						<img alt="CDD" src="../imagenes/cdd.png">
-					</a>				
-					<ul>
-						<li><a href="../index.html">Inicio</a></li>
-						<li><a href="#">Indicaciones</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-						<li><a href="consulta.html">Consultas</a></li>
-						<li><a href="nosotros.html">Acerca de Nosotras</a></li>
-					</ul>
+					   <img alt="CDD" src="../imagenes/cdd.png">
+					</a> 
+					<div class="btn-group dropleft d-flex align-items-center justify-content-center"> 
+						<button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img alt="menu" id="img-menu" src="../imagenes/menu-desp.png">
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<a href="../index.html" class="dropdown-item">Inicio</a>
+							<a href="#" class="dropdown-item">Indicaciones</a>
+							<a href="contacto.html"class="dropdown-item">Contacto</a>
+							<a href="consulta.html" class="dropdown-item">Consultas</a>
+							<a href="nosotros.html" class="dropdown-item">Acerca de Nosotras</a>
+						</div>
+					</div>
 				</nav>
 			</div>
 		</header>
@@ -43,7 +48,7 @@
 								<option>TSH</option>
 								<option>Glucosa</option>
 							</select>
-							<button id="btnAgregar" class="boton btn btn-secondary" type="button">Agregar</button>
+							<button id="btnAgregar" class="boton btn btn-secondary mb-2" type="button">Agregar</button>
 						</div>
 						<textarea id="txtSeleccion" class="textarea form-control" readonly>Selección</textarea>
 					</div>
@@ -64,10 +69,7 @@
 		<footer>
 			<div class="extremo">
       			<nav>
-      				<a href="../index.html" class="logo">
-      					<img alt="CDD" src="../imagenes/cdd.png">
-      				</a>      			
-	      			<ul>
+      				<ul class="d-flex flex-row align-items-center justify-content-center">
 	      				<li><a href="../index.html">Inicio</a></li>
 	      				<li><a href="#">Indicaciones</a></li>
 	      				<li><a href="contacto.html">Contacto</a></li>

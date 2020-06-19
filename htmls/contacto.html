@@ -13,51 +13,64 @@
 	<body>
 		<header class="extremo">  	 		
   	 		<div class="topnav">
-  	 			<nav>
-  		 	    	<a href="../index.html" class="logo">
-    	 	       		<img alt="CDD" src="../imagenes/cdd.png">
-    	 	    	</a>    	 	        	
-	  	 	    	<ul>
-	    	 			<li><a href="../index.html">Inicio</a></li>
-	    	 			<li><a href="indicaciones.html">Indicaciones</a></li>
-	    	 			<li><a href="#">Contacto</a></li>
-	    	 			<li><a href="consulta.html">Consultas</a></li>
-	    	 			<li><a href="nosotros.html">Acerca de Nosotras</a></li>
-	    	 		</ul>
-	    	 	</nav>
+				<nav class="d-flex justify-content-around">
+					<a href="../index.html" class="logo">
+					   <img alt="CDD" src="../imagenes/cdd.png">
+					</a> 
+					<div class="btn-group dropleft  d-flex align-items-center justify-content-center"> 
+						<button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img alt="menu" id="img-menu" src="../imagenes/menu-desp.png">
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<a href="../index.html" class="dropdown-item">Inicio</a>
+							<a href="indicaciones.html" class="dropdown-item">Indicaciones</a>
+							<a href="#"class="dropdown-item">Contacto</a>
+							<a href="consulta.html" class="dropdown-item">Consultas</a>
+							<a href="nosotros.html" class="dropdown-item">Acerca de Nosotras</a>
+						</div>
+					</div>
+				</nav>
      	    </div>     	
     	</header>
     	<div class="container">
 	    	<h1 class="titulo">Contacto</h1>
 			<hr>
 	    	<main class="row justify-content-around align-items-center">    		
-		    	<section class="informacion col-12 col-xl-4">				
-					<div>
-						<h4>Dirección</h4>
-						<img alt="dir" class="img-cntc" src="../imagenes/location.png">			
+		    	<section class="d-flex flex-column justify-content-around informacion col-12 col-xl-4">
+					<div mb-3>				
+						<div class="d-flex row">
+							<h4 class="mr-2">Dirección</h4>
+							<img alt="dir" class="img-cntc" src="../imagenes/location.png">	
+						</div>		
 						<p>
-							Gallardo 334
-							San Carlos de Bariloche
+							Gallardo 334, 
+							San Carlos de Bariloche<br>
 							RÍO NEGRO  8400
 						</p>
 					</div>
 					<div>
-						<h4>E-Mail</h4>
-						<img alt="mail" class="img-cntc" src="../imagenes/mail.png">
+						<div class="d-flex row">
+							<h4 class="mr-2">E-Mail</h4>
+							<img alt="mail" class="img-cntc" src="../imagenes/mail.png">
+						</div>
 						<p>
 							laboratoriocdd@hprbariloche.com
 						</p>
 					</div>
 					<div>
-						<h4>Teléfonos</h4>
-						<img alt="tel" class="img-cntc" src="../imagenes/phone.png">
+						<div class="d-flex row">
+							<h4 class="mr-2">Teléfonos</h4>
+							<img alt="tel" class="img-cntc" src="../imagenes/phone.png">
+						</div>
 						<p>
 							(294) 466-4416
 						</p>
 					</div>
 					<div>
-						<h4>Horario de atención</h4>
-						<img alt="calendar" class="img-cntc" src="../imagenes/calendar.jpg">
+						<div class="d-flex row">
+							<h4 class="mr-2">Horario de atención</h4>
+							<img alt="calendar" class="img-cntc" src="../imagenes/calendar.jpg">
+						</div>
 						<p>
 							Lunes a Viernes 07:30 a 12:30 hs
 						</p>
@@ -72,10 +85,7 @@
 		<footer>
 			<div class="extremo">
       			<nav>
-      				<a href="../index.html" class="logo">
-      					<img alt="CDD" src="../imagenes/cdd.png">
-      				</a>      			
-	      			<ul>
+      				<ul class="d-flex flex-row align-items-center justify-content-center">
 	      				<li><a href="../index.html">Inicio</a></li>
 	      				<li><a href="indicaciones.html">Indicaciones</a></li>
 	      				<li><a href="#">Contacto</a></li>
