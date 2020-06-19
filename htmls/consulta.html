@@ -33,39 +33,42 @@
 		<main class="container">
 			<h1 class="titulo">Consultas Laboratorio</h1>
 			<hr>
-			<form action="#" method="GET" class="formulario ml-4">
-				<div class="form-group">
-					<label for="name">Nombres</label>
-					<input id="name" class="form-control" name="nombres" required type="text">
-				</div>			
-				<div class="form-group">
-					<label for="apellido">Apellido</label>
-					<input id="apellido" class="form-control" name="Apellidos" required type="text">
-				</div>
-				<div class="form-group">
-					<label for="email">Email</label>
-					<input id="email" class="form-control" name="emails" placeholder="email@ejemplo.com" type="email" required>
-				</div>
-				<div class="form-group">
-					<label for="genero">Género</label>
-					<select name="genero" class="form-control" id="genero">
-						<option>Femenino</option>
-						<option>Masculino</option>
-						<option>Otro</option>
-					</select>
-				</div>
-				<div class="consulta-box form-group">
-					<label for="consulta">Consulta</label>
-					<textarea id="txtconsulta" class="form-control" name="consultas" placeholder="Escriba su consulta" required></textarea>
-				</div>
-				<p>Solo usaremos su información para responder a su consulta</p>
-				<div>
-					<input type="checkbox" value="si" name="chkAcepta" id="chkAcepta" required>
-					<label for="chkAcepta">Acepta el envío de los datos ingresados</label>
-				</div>
-				<button type="reset" class="btn btn-secondary mb-3">Limpiar Formulario</button>
-				<button type="submit" class="btn btn-primary">Enviar</button>
-			</form>		
+			<div class="d-flex justify-content-around align-items-start">
+				<form action="#" method="GET" class="formulario ml-4">
+					<div class="form-group">
+						<label for="name">Nombres</label>
+						<input id="name" class="form-control" name="nombres" required type="text">
+					</div>			
+					<div class="form-group">
+						<label for="apellido">Apellido</label>
+						<input id="apellido" class="form-control" name="Apellidos" required type="text">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input id="email" class="form-control" name="emails" placeholder="email@ejemplo.com" type="email" required>
+					</div>
+					<div class="form-group">
+						<label for="genero">Género</label>
+						<select name="genero" class="form-control" id="genero">
+							<option>Femenino</option>
+							<option>Masculino</option>
+							<option>Otro</option>
+						</select>
+					</div>
+					<div class="consulta-box form-group">
+						<label for="consulta">Consulta</label>
+						<textarea id="txtconsulta" class="form-control" name="consultas" placeholder="Escriba su consulta" required></textarea>
+					</div>
+					<p>Solo usaremos su información para responder a su consulta</p>
+					<div>
+						<input type="checkbox" value="si" name="chkAcepta" id="chkAcepta" required>
+						<label for="chkAcepta">Acepta el envío de los datos ingresados</label>
+					</div>
+					<button type="reset" class="btn btn-secondary mb-3">Limpiar Formulario</button>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>	
+				<img alt="imagen-lab" id="imagen-lab" class="ml-3" src="../imagenes/lab.jpg">
+			</div>
     		<hr>
     	</main>
 		<footer>
@@ -80,7 +83,7 @@
 	    	 		</ul>
 	    	 	</nav>
 	    	</div>
-	    	<div class="align-items-center row justify-content-around" id="img-footer">
+	    	<div class="info-footer align-items-center row justify-content-around" id="img-footer">
 	            <div class="row">
 	                <img alt="CDD" src="../imagenes/phone.png"> <p class="suave">(294) 466-4416</p>
 	            </div>

@@ -62,7 +62,7 @@ p {
 .extremo a {
   text-decoration: none;
   padding: none;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   font-weight: bolder; }
   .extremo a:hover {
@@ -222,8 +222,7 @@ td img {
   position: relative;
   transform-style: preserve-3d;
   transition: .5s;
-  box-shadow: 0px 0px 10px 2px grey;
-  border: 2px solid black; }
+  box-shadow: 0px 0px 10px 2px grey; }
 
 .front-flip-equipo {
   position: absolute;
@@ -258,16 +257,25 @@ td img {
   h1 {
     font-size: 1.7em; }
   h2, h3 {
-    text-transform: initial; } }
+    text-transform: initial; }
+  #imagen-lab {
+    height: 226px;
+    width: 320px; } }
 
 @media (max-width: 768px) {
   #aside {
     display: none; }
   #principal {
     flex-direction: column-reverse; }
+  #imagen-lab {
+    display: none; }
   iframe {
     width: 500px;
-    height: 350px; } }
+    height: 350px; }
+  table tr td {
+    font-size: 13px; }
+  table tr .funciones {
+    display: none; } }
 
 @media (max-width: 576px) {
   h1 {
@@ -288,6 +296,10 @@ td img {
     height: 40px;
     border: none;
     padding: none; }
+  #btn-enviar {
+    margin-top: 30px; }
+  .div-indicaciones {
+    flex-direction: column; }
   #img-menu {
     width: 20px;
     height: 20px;

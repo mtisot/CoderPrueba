@@ -40,8 +40,8 @@
 						<p>Seleccione de a uno los items de su orden
 							y presione Agregar:
 						</p>
-					<div class="d-flex justify-content-between align-items-center">
-						<div>
+					<div class="d-flex justify-content-around align-items-center div-indicaciones">
+						<div class="d-flex flex-column">
 							<select name="cmbItems" id="cmbItems" class="combo-box form-control d-inline-block">
 								<option selected disabled></option>
 								<option>T4</option>
@@ -50,10 +50,11 @@
 							</select>
 							<button id="btnAgregar" class="boton btn btn-secondary mb-2" type="button">Agregar</button>
 						</div>
-						<textarea id="txtSeleccion" class="textarea form-control" readonly>Selección</textarea>
+						<textarea id="txtSeleccion" class="textarea form-control mt-3" readonly>Selección</textarea>
 					</div>
+					<hr>
 					<div class="align-self-center"> 
-						<button type="submit" class="boton btn btn-secondary mb-3">Enviar</button>
+						<button type="submit" id="btn-enviar" class="boton btn btn-secondary mt-3 mb-3">Enviar</button>
 						<textarea id="txt-recomendaciones" class="textarea form-control mt-4" readonly>Recomendaciones</textarea> <!-- Aqui apareceran las recomendaciones segun los items -->
 					</div>
 				</div>
@@ -63,7 +64,7 @@
 					Si la orden no es legible o tenes alguna consulta podes dejarnos un mensaje por mail o mandarnos la foto de la orden por Whastapp y nos contactamos con vos!
 				</p>			
 			</div>
-			<a href="consulta.html" class="link-grande row justify-content-around align-items-center">CONSULTANOS</a>	
+			<a href="consulta.html" class="link-grande row justify-content-around align-items-center negro"><u><h5>CONSULTANOS</h5></u></a>	
 	    	<hr>
 	    </main>
 		<footer>
@@ -78,7 +79,7 @@
 	      			</ul>
 	      		</nav>
       		</div>
-      		<div class="align-items-center row justify-content-around" id="img-footer">
+      		<div class="info-footer align-items-center row justify-content-around" id="img-footer">
 	            <div class="row">
 	                <img alt="CDD" src="../imagenes/phone.png"> <p class="suave">(294) 466-4416</p>
 	            </div>
