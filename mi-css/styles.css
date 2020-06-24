@@ -8,6 +8,9 @@ body {
 header {
   background-color: #ad76de; }
 
+.navegacion-mobile {
+  display: none; }
+
 h1 {
   font-family: "Montserrat";
   line-height: 0.1; }
@@ -73,6 +76,10 @@ p {
     height: 90px;
     border: none;
     padding: none; }
+
+.menu-footer ul li a {
+  font-size: 17px;
+  color: #723881; }
 
 #img-menu {
   width: 30px;
@@ -263,6 +270,10 @@ td img {
     width: 320px; } }
 
 @media (max-width: 768px) {
+  .navegacion-normal {
+    display: none; }
+  .navegacion-mobile {
+    display: inline; }
   #aside {
     display: none; }
   #principal {
